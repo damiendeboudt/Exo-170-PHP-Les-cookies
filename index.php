@@ -6,9 +6,9 @@
  */
 // TODO Votre code ici.
 //creation d'un cookie et affichage
-setcookie('username', 'Damien', time() + (3600 * 48) + (3600 * 2), '/', 'localhost', true);
+//setcookie('username', 'Damien', time() + (3600 * 48) + (3600 * 2), '/', 'localhost', true);
 
-echo $_COOKIE['username'];
+//echo $_COOKIE['username'];
 
 setcookie('username','Deboudt', time() + (3600 * 48) + (3600 * 2), '/', 'localhost', true);
 
